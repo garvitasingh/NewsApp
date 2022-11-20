@@ -6,7 +6,7 @@ Sign In and watch news online or offline and search news using headlines.
 
 Firebase email auth and google signin is used for user login and registration.
 After successful login News page will be opened, network connectivity get checked using connecivity_plus package and if network is connected then news detail will get fetched using news api and stored in local storage using flutter_secure_storage package, if newtork is not connected then data is fetched from local storage.
-You can search news using headings text, news details contain updated time, author, title, news description and image.
+You can search news using headings text, news details contain updated time, author, title, news discription and image.
 
 ## Dependencies used:-
 
@@ -19,3 +19,9 @@ You can search news using headings text, news details contain updated time, auth
   flutter_secure_storage, 
   http, 
   jiffy, 
+
+### here is the demo
+
+
+https://user-images.githubusercontent.com/93863520/202914928-58aca1bc-aaf2-47b0-9424-574754dd186b.mp4
+
