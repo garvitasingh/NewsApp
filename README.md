@@ -1,16 +1,21 @@
-# news_app
+# News App
 
-A new Flutter project.
+Sign In and watch news online or offline and search news using headlines.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Firebase email auth and google signin is used for user login and registration.
+After successful login News page will be opened, network connectivity get checked using connecivity_plus package and if network is connected then news detail will get fetched using news api and stored in local storage using flutter_secure_storage package, if newtork is not connected then data is fetched from local storage.
+You can search news using headings text, news details contain updated time, author, title, news description and image.
 
-A few resources to get you started if this is your first Flutter project:
+## Dependencies used:-
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ firebase_core , 
+  firebase_auth, 
+  google_sign_in,
+  pinput, 
+  font_awesome_flutter, 
+  connectivity_plus, 
+  flutter_secure_storage, 
+  http, 
+  jiffy, 
