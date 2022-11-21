@@ -296,7 +296,7 @@ class _MyHomePageState extends State<HomePage> {
         leading: IconButton(
           icon: const Icon(
             Icons.logout,
-            color: Colors.blue,
+            color: Colors.white,
           ),
           onPressed: () async => {
             await FirebaseAuth.instance.signOut(),
